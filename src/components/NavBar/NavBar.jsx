@@ -1,5 +1,5 @@
 import "./NavBar.css"
-import cart from '../../img/cart-svgrepo-com.svg'
+
 import CartWidget from "./CartWidget";
 function NavBar(){
    
