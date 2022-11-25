@@ -1,5 +1,6 @@
 import "./NavBar.css"
 import cart from '../../img/cart-svgrepo-com.svg'
+import CartWidget from "./CartWidget";
 function NavBar(){
    
    
@@ -23,8 +24,8 @@ function NavBar(){
             <a href="/">Nosotros</a>
             </li>
           </ul>
-          <img src={cart} alt='' className="carrito"/>
-        
+         
+          <CartWidget/>
 
     </nav>
 
